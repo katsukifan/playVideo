@@ -13,6 +13,8 @@
 		21651B9222155E8700EE8975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21651B9022155E8700EE8975 /* Main.storyboard */; };
 		21651B9422155E8700EE8975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21651B9322155E8700EE8975 /* Assets.xcassets */; };
 		21651B9722155E8700EE8975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21651B9522155E8700EE8975 /* LaunchScreen.storyboard */; };
+		21E0BF9F22168DB3002159F3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E0BF9E22168DB3002159F3 /* MediaPlayer.framework */; };
+		21E0BFA12216910A002159F3 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 21E0BFA02216910A002159F3 /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		21651B9322155E8700EE8975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21651B9622155E8700EE8975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21651B9822155E8700EE8975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E0BF9E22168DB3002159F3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		21E0BFA02216910A002159F3 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mp4; path = ../../../Movies/test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E0BF9F22168DB3002159F3 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				21651B8622155E8700EE8975 /* playVideo */,
 				21651B8522155E8700EE8975 /* Products */,
+				21E0BF9D22168DB3002159F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +64,7 @@
 		21651B8622155E8700EE8975 /* playVideo */ = {
 			isa = PBXGroup;
 			children = (
+				21E0BFA02216910A002159F3 /* test.mp4 */,
 				21651B8A22155E8700EE8975 /* AppDelegate.h */,
 				21651B8B22155E8700EE8975 /* AppDelegate.m */,
 				21651B8D22155E8700EE8975 /* ViewController.h */,
@@ -77,6 +84,14 @@
 				21651B8822155E8700EE8975 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21E0BF9D22168DB3002159F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21E0BF9E22168DB3002159F3 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +155,7 @@
 				21651B9722155E8700EE8975 /* LaunchScreen.storyboard in Resources */,
 				21651B9422155E8700EE8975 /* Assets.xcassets in Resources */,
 				21651B9222155E8700EE8975 /* Main.storyboard in Resources */,
+				21E0BFA12216910A002159F3 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,7 @@
 				21651B9D22155E8700EE8975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
